@@ -30,10 +30,16 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hey There,❤**
 
-Here you can search files in inline mode. Just press following buttons and start searching.
+**I'm a Simple Movies & Webseries Searching Bot Made by Mahesh Sir...👍 and Deployed By @OPbots...🔥**
+
+Here you can search files in inline mode. Just press these two buttons and start searching.
+Use /total to know the number of file in our database...🔥
 """
 
-SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
+SHARE_BUTTON_TEXT = ''' **Hey There,👋**
+
+Checkout {username} for finding all movies and webseries..👍'''
+
 INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
